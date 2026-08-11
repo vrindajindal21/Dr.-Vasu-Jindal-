@@ -173,10 +173,6 @@ Condition: ${appointmentData.condition}`
                       <p className="text-xl md:text-2xl font-bold text-spine-tan">24/7</p>
                       <p className="text-xs text-white/70">Support</p>
                     </div>
-                    <div className="bg-white/10 rounded-lg p-2 md:p-3">
-                      <p className="text-xl md:text-2xl font-bold text-spine-tan">15+</p>
-                      <p className="text-xs text-white/70">Years</p>
-                    </div>
                   </div>
                 </div>
               </div>
@@ -210,19 +206,19 @@ Condition: ${appointmentData.condition}`
               </p>
               <div className="space-y-2">
                 <div className="flex items-center space-x-2 md:space-x-3">
-                  <Award size={16} className="md:size={20} text-spine-teal" />
+                  <Award size={18} className="text-spine-teal" />
                   <span className="text-gray-700 font-medium text-sm md:text-base">MBBS</span>
                 </div>
                 <div className="flex items-center space-x-2 md:space-x-3">
-                  <Award size={16} className="md:size={20} text-spine-teal" />
+                  <Award size={18} className="text-spine-teal" />
                   <span className="text-gray-700 font-medium text-sm md:text-base">MS Ortho</span>
                 </div>
                 <div className="flex items-center space-x-2 md:space-x-3">
-                  <Award size={16} className="md:size={20} text-spine-teal" />
+                  <Award size={18} className="text-spine-teal" />
                   <span className="text-gray-700 font-medium text-sm md:text-base">DNB Ortho</span>
                 </div>
                 <div className="flex items-center space-x-2 md:space-x-3">
-                  <Award size={16} className="md:size={20} text-spine-teal" />
+                  <Award size={18} className="text-spine-teal" />
                   <span className="text-gray-700 font-medium text-sm md:text-base">FNB Spine Surgery</span>
                 </div>
               </div>
@@ -230,7 +226,7 @@ Condition: ${appointmentData.condition}`
                 <h4 className="text-base md:text-lg font-semibold text-spine-teal mb-3 md:mb-4">Connect with Dr. Jindal</h4>
                 <div className="flex flex-wrap gap-2 md:gap-3">
                   <a
-                    href="https://instagram.com/drvasujindal"
+                    href=""
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center space-x-2 bg-gradient-to-br from-purple-500 to-pink-500 text-white px-3 py-2 md:px-4 md:py-2 rounded-lg hover:opacity-90 transition text-xs md:text-sm"
@@ -239,7 +235,7 @@ Condition: ${appointmentData.condition}`
                     <span className="font-medium">Instagram</span>
                   </a>
                   <a
-                    href="https://facebook.com/drvasujindal"
+                    href=""
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center space-x-2 bg-blue-600 text-white px-3 py-2 md:px-4 md:py-2 rounded-lg hover:opacity-90 transition text-xs md:text-sm"
@@ -248,13 +244,22 @@ Condition: ${appointmentData.condition}`
                     <span className="font-medium">Facebook</span>
                   </a>
                   <a
-                    href="https://linkedin.com/in/drvasujindal"
+                    href=""
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center space-x-2 bg-blue-700 text-white px-3 py-2 md:px-4 md:py-2 rounded-lg hover:opacity-90 transition text-xs md:text-sm"
                   >
                     <Linkedin size={18} />
                     <span className="font-medium">LinkedIn</span>
+                  </a>
+                  <a
+                    href="https://wa.me/919167761851"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center space-x-2 bg-green-500 text-white px-3 py-2 md:px-4 md:py-2 rounded-lg hover:opacity-90 transition text-xs md:text-sm"
+                  >
+                    <MessageCircle size={18} />
+                    <span className="font-medium">WhatsApp</span>
                   </a>
                 </div>
               </div>
@@ -642,11 +647,28 @@ Condition: ${appointmentData.condition}`
             >
               <Linkedin size={20} />
             </a>
+            <a
+              href="https://wa.me/919167761851"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-spine-tan-light hover:text-white transition"
+            >
+              <MessageCircle size={20} />
+            </a>
           </div>
           <p className="text-xs md:text-sm text-gray-400">&copy; 2026 The Spine Lounge. All rights reserved.</p>
         </div>
       </footer>
 
+      {/* Floating WhatsApp Button */}
+      <a
+        href="https://wa.me/919167761851?text=Hello%20Dr.%20Jindal,%20I%20would%20like%20to%20book%20an%20appointment"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="fixed bottom-4 md:bottom-6 right-4 md:right-6 bg-green-500 text-white p-3 md:p-4 rounded-full shadow-lg hover:bg-green-600 transition z-50"
+      >
+        <MessageCircle size={28} />
+      </a>
 
       {/* Appointments Modal */}
       {showAppointments && (
