@@ -43,7 +43,7 @@ Service: ${appointmentData.service}
 Condition: ${appointmentData.condition}`
 
     // Open WhatsApp with pre-filled message
-    const whatsappNumber = '919876543210'
+    const whatsappNumber = '919167761851'
     const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(whatsappMessage)}`
     window.open(whatsappUrl, '_blank')
 
@@ -153,16 +153,6 @@ Condition: ${appointmentData.condition}`
                 👨‍⚕️ Meet Dr. Jindal
               </a>
             </div>
-            <div className="mt-6 md:mt-8 flex flex-col sm:flex-row items-center space-y-2 sm:space-y-0 sm:space-x-6 text-spine-tan-light">
-              <div className="flex items-center space-x-2">
-                <Users size={16} className="md:size={20} text-spine-tan" />
-                <span className="font-semibold text-sm md:text-base">5000+ Patients</span>
-              </div>
-              <div className="flex items-center space-x-2">
-                <Award size={16} className="md:size={20} text-spine-tan" />
-                <span className="font-semibold text-sm md:text-base">15+ Years Experience</span>
-              </div>
-            </div>
           </div>
           <div className="md:w-1/2 flex justify-center order-2 md:order-1">
             <div className="relative w-full max-w-md">
@@ -170,8 +160,7 @@ Condition: ${appointmentData.condition}`
               <div className="relative bg-white/15 backdrop-blur-md rounded-3xl p-6 md:p-10 w-full border border-white/20 shadow-2xl">
                 <div className="text-center">
                   <div className="w-24 h-24 md:w-32 md:h-32 mx-auto mb-4 md:mb-6 bg-gradient-to-br from-spine-tan to-spine-tan-light rounded-full flex items-center justify-center shadow-xl">
-                    <Stethoscope size={48} className="md:hidden text-spine-teal-dark" />
-                    <Stethoscope size={64} className="hidden md:block text-spine-teal-dark" />
+                    <Stethoscope size={56} className="text-spine-teal-dark" />
                   </div>
                   <p className="text-spine-tan font-semibold text-base md:text-lg mb-2">The Spine Lounge</p>
                   <p className="text-white/80 text-xs md:text-sm">Advanced Spine Care Center</p>
@@ -204,7 +193,7 @@ Condition: ${appointmentData.condition}`
             <div className="flex justify-center">
               <div className="relative">
                 <div className="w-48 h-48 md:w-64 md:h-64 lg:w-80 lg:h-80 bg-gradient-to-br from-spine-teal to-spine-teal-dark rounded-full flex items-center justify-center shadow-2xl">
-                  <User size={80} className="md:size={96} lg:size={120} text-spine-tan" />
+                  <User size={96} className="text-spine-tan" />
                 </div>
                 <div className="absolute -bottom-2 md:-bottom-4 -right-2 md:-right-4 bg-spine-tan text-spine-teal-dark px-4 py-2 md:px-6 md:py-3 rounded-full shadow-lg">
                   <span className="font-semibold text-sm md:text-base">Spine Surgeon</span>
@@ -246,7 +235,7 @@ Condition: ${appointmentData.condition}`
                     rel="noopener noreferrer"
                     className="flex items-center space-x-2 bg-gradient-to-br from-purple-500 to-pink-500 text-white px-3 py-2 md:px-4 md:py-2 rounded-lg hover:opacity-90 transition text-xs md:text-sm"
                   >
-                    <Instagram size={16} className="md:size={20}" />
+                    <Instagram size={18} />
                     <span className="font-medium">Instagram</span>
                   </a>
                   <a
@@ -255,7 +244,7 @@ Condition: ${appointmentData.condition}`
                     rel="noopener noreferrer"
                     className="flex items-center space-x-2 bg-blue-600 text-white px-3 py-2 md:px-4 md:py-2 rounded-lg hover:opacity-90 transition text-xs md:text-sm"
                   >
-                    <Facebook size={16} className="md:size={20}" />
+                    <Facebook size={18} />
                     <span className="font-medium">Facebook</span>
                   </a>
                   <a
@@ -264,17 +253,8 @@ Condition: ${appointmentData.condition}`
                     rel="noopener noreferrer"
                     className="flex items-center space-x-2 bg-blue-700 text-white px-3 py-2 md:px-4 md:py-2 rounded-lg hover:opacity-90 transition text-xs md:text-sm"
                   >
-                    <Linkedin size={16} className="md:size={20}" />
+                    <Linkedin size={18} />
                     <span className="font-medium">LinkedIn</span>
-                  </a>
-                  <a
-                    href="https://wa.me/919876543210"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="flex items-center space-x-2 bg-green-500 text-white px-3 py-2 md:px-4 md:py-2 rounded-lg hover:opacity-90 transition text-xs md:text-sm"
-                  >
-                    <MessageCircle size={16} className="md:size={20}" />
-                    <span className="font-medium">WhatsApp</span>
                   </a>
                 </div>
               </div>
@@ -296,28 +276,6 @@ Condition: ${appointmentData.condition}`
                 With years of experience in spinal medicine, we combine advanced techniques with compassionate care to address your unique needs and concerns.
               </p>
             </div>
-            <div className="grid grid-cols-2 gap-3 md:gap-4">
-              <div className="bg-spine-tan-light p-4 md:p-6 rounded-lg text-center">
-                <Users size={32} className="md:size={40} mx-auto text-spine-teal mb-2" />
-                <h3 className="font-semibold text-spine-teal text-sm md:text-base">5000+</h3>
-                <p className="text-xs md:text-sm text-gray-600">Happy Patients</p>
-              </div>
-              <div className="bg-spine-tan-light p-4 md:p-6 rounded-lg text-center">
-                <Activity size={32} className="md:size={40} mx-auto text-spine-teal mb-2" />
-                <h3 className="font-semibold text-spine-teal text-sm md:text-base">15+</h3>
-                <p className="text-xs md:text-sm text-gray-600">Years Experience</p>
-              </div>
-              <div className="bg-spine-tan-light p-4 md:p-6 rounded-lg text-center">
-                <Heart size={32} className="md:size={40} mx-auto text-spine-teal mb-2" />
-                <h3 className="font-semibold text-spine-teal text-sm md:text-base">98%</h3>
-                <p className="text-xs md:text-sm text-gray-600">Success Rate</p>
-              </div>
-              <div className="bg-spine-tan-light p-4 md:p-6 rounded-lg text-center">
-                <Stethoscope size={32} className="md:size={40} mx-auto text-spine-teal mb-2" />
-                <h3 className="font-semibold text-spine-teal text-sm md:text-base">24/7</h3>
-                <p className="text-xs md:text-sm text-gray-600">Emergency Care</p>
-              </div>
-            </div>
           </div>
         </div>
       </section>
@@ -333,54 +291,42 @@ Condition: ${appointmentData.condition}`
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6 lg:gap-8">
             <div className="bg-white p-4 md:p-6 lg:p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 border border-gray-100 group">
               <div className="w-12 h-12 md:w-14 md:h-14 lg:w-16 lg:h-16 bg-gradient-to-br from-spine-teal to-spine-teal-dark rounded-2xl flex items-center justify-center mb-3 md:mb-4 lg:mb-6 group-hover:scale-110 transition-transform duration-300">
-                <Activity size={24} className="md:hidden text-white" />
-                <Activity size={28} className="md:hidden lg:hidden text-white" />
-                <Activity size={32} className="hidden md:block text-white" />
+                <Activity size={28} className="text-white" />
               </div>
               <h3 className="text-lg md:text-xl lg:text-2xl font-bold text-spine-teal mb-2 md:mb-3">Spinal Rehabilitation</h3>
               <p className="text-gray-600 text-xs md:text-sm lg:text-base">Comprehensive rehabilitation programs to restore mobility and strength.</p>
             </div>
             <div className="bg-white p-4 md:p-6 lg:p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 border border-gray-100 group">
               <div className="w-12 h-12 md:w-14 md:h-14 lg:w-16 lg:h-16 bg-gradient-to-br from-spine-teal to-spine-teal-dark rounded-2xl flex items-center justify-center mb-3 md:mb-4 lg:mb-6 group-hover:scale-110 transition-transform duration-300">
-                <Heart size={24} className="md:hidden text-white" />
-                <Heart size={28} className="md:hidden lg:hidden text-white" />
-                <Heart size={32} className="hidden md:block text-white" />
+                <Heart size={28} className="text-white" />
               </div>
               <h3 className="text-lg md:text-xl lg:text-2xl font-bold text-spine-teal mb-2 md:mb-3">Pain Management</h3>
               <p className="text-gray-600 text-xs md:text-sm lg:text-base">Advanced pain management techniques for lasting relief.</p>
             </div>
             <div className="bg-white p-4 md:p-6 lg:p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 border border-gray-100 group">
               <div className="w-12 h-12 md:w-14 md:h-14 lg:w-16 lg:h-16 bg-gradient-to-br from-spine-teal to-spine-teal-dark rounded-2xl flex items-center justify-center mb-3 md:mb-4 lg:mb-6 group-hover:scale-110 transition-transform duration-300">
-                <Stethoscope size={24} className="md:hidden text-white" />
-                <Stethoscope size={28} className="md:hidden lg:hidden text-white" />
-                <Stethoscope size={32} className="hidden md:block text-white" />
+                <Stethoscope size={28} className="text-white" />
               </div>
               <h3 className="text-lg md:text-xl lg:text-2xl font-bold text-spine-teal mb-2 md:mb-3">Chiropractic Care</h3>
               <p className="text-gray-600 text-xs md:text-sm lg:text-base">Professional chiropractic adjustments and spinal alignment.</p>
             </div>
             <div className="bg-white p-4 md:p-6 lg:p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 border border-gray-100 group">
               <div className="w-12 h-12 md:w-14 md:h-14 lg:w-16 lg:h-16 bg-gradient-to-br from-spine-teal to-spine-teal-dark rounded-2xl flex items-center justify-center mb-3 md:mb-4 lg:mb-6 group-hover:scale-110 transition-transform duration-300">
-                <Users size={24} className="md:hidden text-white" />
-                <Users size={28} className="md:hidden lg:hidden text-white" />
-                <Users size={32} className="hidden md:block text-white" />
+                <Users size={28} className="text-white" />
               </div>
               <h3 className="text-lg md:text-xl lg:text-2xl font-bold text-spine-teal mb-2 md:mb-3">Physical Therapy</h3>
               <p className="text-gray-600 text-xs md:text-sm lg:text-base">Customized physical therapy programs for recovery.</p>
             </div>
             <div className="bg-white p-4 md:p-6 lg:p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 border border-gray-100 group">
               <div className="w-12 h-12 md:w-14 md:h-14 lg:w-16 lg:h-16 bg-gradient-to-br from-spine-teal to-spine-teal-dark rounded-2xl flex items-center justify-center mb-3 md:mb-4 lg:mb-6 group-hover:scale-110 transition-transform duration-300">
-                <Activity size={24} className="md:hidden text-white" />
-                <Activity size={28} className="md:hidden lg:hidden text-white" />
-                <Activity size={32} className="hidden md:block text-white" />
+                <Activity size={28} className="text-white" />
               </div>
               <h3 className="text-lg md:text-xl lg:text-2xl font-bold text-spine-teal mb-2 md:mb-3">Post-Surgical Care</h3>
               <p className="text-gray-600 text-xs md:text-sm lg:text-base">Specialized care for patients recovering from spine surgery.</p>
             </div>
             <div className="bg-white p-4 md:p-6 lg:p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 border border-gray-100 group">
               <div className="w-12 h-12 md:w-14 md:h-14 lg:w-16 lg:h-16 bg-gradient-to-br from-spine-teal to-spine-teal-dark rounded-2xl flex items-center justify-center mb-3 md:mb-4 lg:mb-6 group-hover:scale-110 transition-transform duration-300">
-                <Heart size={24} className="md:hidden text-white" />
-                <Heart size={28} className="md:hidden lg:hidden text-white" />
-                <Heart size={32} className="hidden md:block text-white" />
+                <Heart size={28} className="text-white" />
               </div>
               <h3 className="text-lg md:text-xl lg:text-2xl font-bold text-spine-teal mb-2 md:mb-3">Wellness Programs</h3>
               <p className="text-gray-600 text-xs md:text-sm lg:text-base">Preventive care and wellness programs for spinal health.</p>
@@ -524,8 +470,7 @@ Condition: ${appointmentData.condition}`
                   type="submit"
                   className="w-full bg-gradient-to-r from-spine-tan to-spine-tan-light text-spine-teal-dark py-3 md:py-4 rounded-xl font-bold text-sm md:text-base lg:text-lg hover:shadow-2xl hover:scale-105 transition-all duration-300 flex items-center justify-center space-x-2 min-h-[48px]"
                 >
-                  <Calendar size={20} className="md:hidden" />
-                  <Calendar size={24} className="hidden md:block" />
+                  <Calendar size={22} />
                   <span>Schedule Appointment Now</span>
                 </button>
                 <div className="flex items-center justify-center space-x-2 text-spine-tan-light">
@@ -549,37 +494,27 @@ Condition: ${appointmentData.condition}`
           <div className="grid md:grid-cols-2 gap-4 md:gap-6 lg:gap-8">
             <div className="bg-white p-4 md:p-6 lg:p-8 rounded-2xl shadow-xl border border-gray-100">
               <h3 className="text-lg md:text-xl lg:text-2xl font-bold text-spine-teal mb-3 md:mb-4 lg:mb-6 flex items-center">
-                <MapPin size={20} className="md:hidden mr-2" />
-                <MapPin size={24} className="hidden md:block mr-3" />
+                <MapPin size={20} className="mr-2" />
                 Clinic Location
               </h3>
               <div className="space-y-3 md:space-y-4 lg:space-y-6">
                 <div className="flex items-start space-x-2 md:space-x-3 lg:space-x-4 p-3 md:p-4 bg-spine-tan-light rounded-xl">
-                  <MapPin size={18} className="md:hidden text-spine-teal mt-1 flex-shrink-0" />
-                  <MapPin size={20} className="md:hidden lg:hidden text-spine-teal mt-1 flex-shrink-0" />
-                  <MapPin size={24} className="hidden md:block text-spine-teal mt-1 flex-shrink-0" />
+                  <MapPin size={20} className="text-spine-teal mt-1 flex-shrink-0" />
                   <div>
                     <p className="font-bold text-gray-800 text-sm md:text-base lg:text-lg">The Spine Lounge</p>
-                    <p className="text-gray-600 text-xs md:text-sm lg:text-base">123 Medical Center Drive, Suite 100</p>
-                    <p className="text-gray-600 text-xs md:text-sm lg:text-base">New Delhi, India - 110001</p>
+                    <p className="text-gray-600 text-xs md:text-sm lg:text-base">Muzaffarnagar, Uttar Pradesh, India</p>
                   </div>
                 </div>
                 <div className="flex items-center space-x-2 md:space-x-3 lg:space-x-4 p-3 md:p-4 bg-spine-tan-light rounded-xl">
-                  <Phone size={18} className="md:hidden text-spine-teal flex-shrink-0" />
-                  <Phone size={20} className="md:hidden lg:hidden text-spine-teal flex-shrink-0" />
-                  <Phone size={24} className="hidden md:block text-spine-teal flex-shrink-0" />
-                  <span className="text-gray-800 font-medium text-xs md:text-sm lg:text-base">+91 98765 43210</span>
+                  <Phone size={20} className="text-spine-teal flex-shrink-0" />
+                  <span className="text-gray-800 font-medium text-xs md:text-sm lg:text-base">+91 91677 61851</span>
                 </div>
                 <div className="flex items-center space-x-2 md:space-x-3 lg:space-x-4 p-3 md:p-4 bg-spine-tan-light rounded-xl">
-                  <Mail size={18} className="md:hidden text-spine-teal flex-shrink-0" />
-                  <Mail size={20} className="md:hidden lg:hidden text-spine-teal flex-shrink-0" />
-                  <Mail size={24} className="hidden md:block text-spine-teal flex-shrink-0" />
+                  <Mail size={20} className="text-spine-teal flex-shrink-0" />
                   <span className="text-gray-800 font-medium text-xs md:text-sm lg:text-base">info@thespinelounge.com</span>
                 </div>
                 <div className="flex items-start space-x-2 md:space-x-3 lg:space-x-4 p-3 md:p-4 bg-spine-tan-light rounded-xl">
-                  <Clock size={18} className="md:hidden text-spine-teal mt-1 flex-shrink-0" />
-                  <Clock size={20} className="md:hidden lg:hidden text-spine-teal mt-1 flex-shrink-0" />
-                  <Clock size={24} className="hidden md:block text-spine-teal mt-1 flex-shrink-0" />
+                  <Clock size={20} className="text-spine-teal mt-1 flex-shrink-0" />
                   <div>
                     <p className="text-gray-800 font-medium text-xs md:text-sm lg:text-base">Mon - Fri: 9:00 AM - 6:00 PM</p>
                     <p className="text-gray-800 font-medium text-xs md:text-sm lg:text-base">Saturday: 10:00 AM - 2:00 PM</p>
@@ -589,14 +524,12 @@ Condition: ${appointmentData.condition}`
               </div>
               <div className="mt-4 md:mt-6 lg:mt-8">
                 <a
-                  href="https://maps.google.com/?q=123+Medical+Center+Drive+New+Delhi+India"
+                  href="https://maps.google.com/?q=Muzaffarnagar+Uttar+Pradesh+India"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center space-x-2 bg-gradient-to-r from-spine-teal to-spine-teal-dark text-white px-5 py-3 md:px-6 md:py-3 lg:px-8 lg:py-4 rounded-xl font-bold text-sm md:text-base lg:text-lg hover:shadow-2xl hover:scale-105 transition-all duration-300 w-full justify-center min-h-[48px]"
                 >
-                  <MapPin size={18} className="md:hidden" />
-                  <MapPin size={20} className="md:hidden lg:hidden" />
-                  <MapPin size={24} className="hidden md:block" />
+                  <MapPin size={20} />
                   <span>Get Directions</span>
                 </a>
               </div>
@@ -605,15 +538,13 @@ Condition: ${appointmentData.condition}`
               <div className="absolute inset-0 bg-black/20"></div>
               <div className="relative h-full min-h-[250px] md:min-h-[300px] lg:min-h-[400px] flex flex-col items-center justify-center p-4 md:p-6 lg:p-8 text-white">
                 <div className="w-16 h-16 md:w-20 md:h-20 lg:w-24 lg:h-24 bg-white/20 rounded-full flex items-center justify-center mb-3 md:mb-4 lg:mb-6 backdrop-blur-sm">
-                  <MapPin size={32} className="md:hidden text-white" />
-                  <MapPin size={40} className="md:hidden lg:hidden text-white" />
-                  <MapPin size={48} className="hidden md:block text-white" />
+                  <MapPin size={40} className="text-white" />
                 </div>
                 <p className="text-lg md:text-xl lg:text-2xl font-bold mb-2">Interactive Map</p>
                 <p className="text-spine-tan-light text-center mb-3 md:mb-4 lg:mb-6 text-xs md:text-sm lg:text-base">Click "Get Directions" to navigate to our clinic</p>
                 <div className="flex items-center space-x-2 bg-white/10 px-3 py-2 md:px-4 md:py-2 rounded-full backdrop-blur-sm">
                   <span className="text-lg md:text-xl lg:text-2xl">📍</span>
-                  <span className="font-medium text-xs md:text-sm lg:text-base">New Delhi, India</span>
+                  <span className="font-medium text-xs md:text-sm lg:text-base">Muzaffarnagar, Uttar Pradesh</span>
                 </div>
               </div>
             </div>
@@ -630,27 +561,19 @@ Condition: ${appointmentData.condition}`
               <h3 className="text-lg md:text-xl lg:text-2xl font-semibold mb-3 md:mb-4 lg:mb-6">Get in Touch</h3>
               <div className="space-y-2 md:space-y-3 lg:space-y-4">
                 <div className="flex items-center space-x-2 md:space-x-3 lg:space-x-4">
-                  <Phone size={18} className="md:hidden text-spine-tan flex-shrink-0" />
-                  <Phone size={20} className="md:hidden lg:hidden text-spine-tan flex-shrink-0" />
-                  <Phone size={24} className="hidden md:block text-spine-tan flex-shrink-0" />
-                  <span className="text-xs md:text-sm lg:text-base">+91 98765 43210</span>
+                  <Phone size={20} className="text-spine-tan flex-shrink-0" />
+                  <span className="text-xs md:text-sm lg:text-base">+91 91677 61851</span>
                 </div>
                 <div className="flex items-center space-x-2 md:space-x-3 lg:space-x-4">
-                  <Mail size={18} className="md:hidden text-spine-tan flex-shrink-0" />
-                  <Mail size={20} className="md:hidden lg:hidden text-spine-tan flex-shrink-0" />
-                  <Mail size={24} className="hidden md:block text-spine-tan flex-shrink-0" />
+                  <Mail size={20} className="text-spine-tan flex-shrink-0" />
                   <span className="text-xs md:text-sm lg:text-base">info@thespinelounge.com</span>
                 </div>
                 <div className="flex items-center space-x-2 md:space-x-3 lg:space-x-4">
-                  <MapPin size={18} className="md:hidden text-spine-tan flex-shrink-0" />
-                  <MapPin size={20} className="md:hidden lg:hidden text-spine-tan flex-shrink-0" />
-                  <MapPin size={24} className="hidden md:block text-spine-tan flex-shrink-0" />
-                  <span className="text-xs md:text-sm lg:text-base">123 Medical Center Drive, Suite 100, New Delhi</span>
+                  <MapPin size={20} className="text-spine-tan flex-shrink-0" />
+                  <span className="text-xs md:text-sm lg:text-base">Muzaffarnagar, Uttar Pradesh</span>
                 </div>
                 <div className="flex items-center space-x-2 md:space-x-3 lg:space-x-4">
-                  <Clock size={18} className="md:hidden text-spine-tan flex-shrink-0" />
-                  <Clock size={20} className="md:hidden lg:hidden text-spine-tan flex-shrink-0" />
-                  <Clock size={24} className="hidden md:block text-spine-tan flex-shrink-0" />
+                  <Clock size={20} className="text-spine-tan flex-shrink-0" />
                   <span className="text-xs md:text-sm lg:text-base">Mon - Fri: 9:00 AM - 6:00 PM</span>
                 </div>
               </div>
@@ -701,9 +624,7 @@ Condition: ${appointmentData.condition}`
               rel="noopener noreferrer"
               className="text-spine-tan-light hover:text-white transition"
             >
-              <Instagram size={18} className="md:hidden" />
-              <Instagram size={20} className="md:hidden lg:hidden" />
-              <Instagram size={24} className="hidden md:block" />
+              <Instagram size={20} />
             </a>
             <a
               href="https://facebook.com/drvasujindal"
@@ -711,9 +632,7 @@ Condition: ${appointmentData.condition}`
               rel="noopener noreferrer"
               className="text-spine-tan-light hover:text-white transition"
             >
-              <Facebook size={18} className="md:hidden" />
-              <Facebook size={20} className="md:hidden lg:hidden" />
-              <Facebook size={24} className="hidden md:block" />
+              <Facebook size={20} />
             </a>
             <a
               href="https://linkedin.com/in/drvasujindal"
@@ -721,36 +640,13 @@ Condition: ${appointmentData.condition}`
               rel="noopener noreferrer"
               className="text-spine-tan-light hover:text-white transition"
             >
-              <Linkedin size={18} className="md:hidden" />
-              <Linkedin size={20} className="md:hidden lg:hidden" />
-              <Linkedin size={24} className="hidden md:block" />
-            </a>
-            <a
-              href="https://wa.me/919876543210"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-spine-tan-light hover:text-white transition"
-            >
-              <MessageCircle size={18} className="md:hidden" />
-              <MessageCircle size={20} className="md:hidden lg:hidden" />
-              <MessageCircle size={24} className="hidden md:block" />
+              <Linkedin size={20} />
             </a>
           </div>
-          <p className="text-xs md:text-sm text-gray-400">&copy; 2024 The Spine Lounge. All rights reserved.</p>
+          <p className="text-xs md:text-sm text-gray-400">&copy; 2026 The Spine Lounge. All rights reserved.</p>
         </div>
       </footer>
 
-      {/* Floating WhatsApp Button */}
-      <a
-        href="https://wa.me/919876543210?text=Hello%20Dr.%20Jindal,%20I%20would%20like%20to%20book%20an%20appointment"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="fixed bottom-4 md:bottom-6 right-4 md:right-6 bg-green-500 text-white p-3 md:p-4 rounded-full shadow-lg hover:bg-green-600 transition z-50"
-      >
-        <MessageCircle size={24} className="md:hidden" />
-        <MessageCircle size={28} className="md:hidden lg:hidden" />
-        <MessageCircle size={32} className="hidden md:block" />
-      </a>
 
       {/* Appointments Modal */}
       {showAppointments && (
@@ -770,7 +666,7 @@ Condition: ${appointmentData.condition}`
             <div className="p-4 md:p-6 overflow-y-auto max-h-[calc(90vh-120px)]">
               {getAppointments().length === 0 ? (
                 <div className="text-center py-8 md:py-12">
-                  <Calendar size={48} className="md:size={64} mx-auto text-gray-300 mb-3 md:mb-4" />
+                  <Calendar size={56} className="mx-auto text-gray-300 mb-3 md:mb-4" />
                   <p className="text-gray-500 text-base md:text-lg">No appointments booked yet</p>
                 </div>
               ) : (
@@ -816,7 +712,7 @@ Condition: ${appointmentData.condition}`
                         rel="noopener noreferrer"
                         className="inline-flex items-center space-x-2 mt-3 md:mt-4 bg-green-500 text-white px-3 py-2 md:px-4 md:py-2 rounded-lg hover:bg-green-600 transition text-xs md:text-sm"
                       >
-                        <MessageCircle size={14} className="md:size={16}" />
+                        <MessageCircle size={15} />
                         <span>Contact on WhatsApp</span>
                       </a>
                     </div>
