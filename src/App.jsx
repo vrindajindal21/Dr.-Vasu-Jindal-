@@ -73,7 +73,7 @@ Condition: ${appointmentData.condition}`
       {/* Navigation */}
       <nav className="bg-spine-teal text-white py-3 px-4 md:py-4 md:px-6 shadow-lg sticky top-0 z-50">
         <div className="max-w-6xl mx-auto flex justify-between items-center">
-          <h1 className="text-lg md:text-xl lg:text-2xl font-bold">THE SPINE LOUNGE</h1>
+          <h1 className="text-lg md:text-xl lg:text-2xl font-bold">JINDAL SPINE CLINIC</h1>
           <button
             className="md:hidden text-white p-2"
             
@@ -143,7 +143,7 @@ Condition: ${appointmentData.condition}`
               <span className="bg-gradient-to-r from-spine-tan to-spine-tan-light bg-clip-text text-transparent">FNB Spine Surgery</span>
             </h3>
             <p className="text-base md:text-lg lg:text-xl xl:text-2xl mb-6 md:mb-8 text-spine-tan-light font-medium">
-              Transform Your Spine Health at <span className="text-spine-tan font-bold">The Spine Lounge</span>
+              Transform Your Spine Health at <span className="text-spine-tan font-bold">Jindal Spine Clinic</span>
             </p>
             <div className="flex flex-col sm:flex-row space-y-3 sm:space-y-0 sm:space-x-3 md:space-x-4">
               <a href="#appointment" className="bg-gradient-to-r from-spine-tan to-spine-tan-light text-spine-teal-dark px-6 py-4 md:px-8 md:py-4 rounded-xl font-bold text-base md:text-lg hover:shadow-2xl hover:scale-105 transition-all duration-300 text-center min-h-[48px] flex items-center justify-center">
@@ -162,16 +162,12 @@ Condition: ${appointmentData.condition}`
                   <div className="w-24 h-24 md:w-32 md:h-32 mx-auto mb-4 md:mb-6 bg-gradient-to-br from-spine-tan to-spine-tan-light rounded-full flex items-center justify-center shadow-xl">
                     <Stethoscope size={56} className="text-spine-teal-dark" />
                   </div>
-                  <p className="text-spine-tan font-semibold text-base md:text-lg mb-2">The Spine Lounge</p>
+                  <p className="text-spine-tan font-semibold text-base md:text-lg mb-2">Jindal Spine Clinic</p>
                   <p className="text-white/80 text-xs md:text-sm">Advanced Spine Care Center</p>
                   <div className="mt-4 md:mt-6 grid grid-cols-3 gap-2 md:gap-4">
                     <div className="bg-white/10 rounded-lg p-2 md:p-3">
                       <p className="text-xl md:text-2xl font-bold text-spine-tan">98%</p>
                       <p className="text-xs text-white/70">Success</p>
-                    </div>
-                    <div className="bg-white/10 rounded-lg p-2 md:p-3">
-                      <p className="text-xl md:text-2xl font-bold text-spine-tan">24/7</p>
-                      <p className="text-xs text-white/70">Support</p>
                     </div>
                   </div>
                 </div>
@@ -199,10 +195,10 @@ Condition: ${appointmentData.condition}`
             <div>
               <h3 className="text-xl md:text-2xl font-bold text-spine-teal mb-3 md:mb-4">Dr. Vasu Jindal</h3>
               <p className="text-gray-700 mb-3 md:mb-4 text-sm md:text-base">
-                Dr. Vasu Jindal is a renowned spine surgeon and the founder of The Spine Lounge. With extensive qualifications including MBBS, MS Ortho, DNB Ortho, and FNB Spine Surgery, he specializes in treating complex spinal conditions with advanced surgical techniques.
+                Dr. Vasu Jindal is a renowned spine surgeon and the founder of Jindal Spine Clinic. With extensive qualifications including MBBS, MS Ortho, DNB Ortho, and FNB Spine Surgery, he specializes in treating complex spinal conditions with advanced surgical techniques.
               </p>
               <p className="text-gray-700 mb-4 md:mb-6 text-sm md:text-base">
-                At The Spine Lounge, Dr. Jindal provides comprehensive spine care combining surgical expertise with compassionate patient-centered treatment to help patients achieve optimal spinal health and pain-free living.
+                At Jindal Spine Clinic, Dr. Jindal provides comprehensive spine care combining surgical expertise with compassionate patient-centered treatment to help patients achieve optimal spinal health and pain-free living.
               </p>
               <div className="space-y-2">
                 <div className="flex items-center space-x-2 md:space-x-3">
@@ -271,11 +267,11 @@ Condition: ${appointmentData.condition}`
       {/* About Section */}
       <section id="about" className="py-12 md:py-16 px-4 md:px-6 bg-white">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-2xl md:text-3xl font-bold text-spine-teal mb-6 md:mb-8 text-center">About The Spine Lounge</h2>
+          <h2 className="text-2xl md:text-3xl font-bold text-spine-teal mb-6 md:mb-8 text-center">About Jindal Spine Clinic</h2>
           <div className="grid md:grid-cols-2 gap-6 md:gap-8">
             <div>
               <p className="text-gray-700 mb-3 md:mb-4 text-sm md:text-base">
-                At The Spine Lounge, we specialize in comprehensive spine care led by Dr. Vasu Jindal. Our team provides both surgical and non-surgical treatments, dedicated to helping you achieve optimal spinal health through personalized treatment plans.
+                At Jindal Spine Clinic, we specialize in comprehensive spine care led by Dr. Vasu Jindal. Our team provides both surgical and non-surgical treatments, dedicated to helping you achieve optimal spinal health through personalized treatment plans.
               </p>
               <p className="text-gray-700 text-sm md:text-base">
                 With years of experience in spinal medicine, we combine advanced techniques with compassionate care to address your unique needs and concerns.
@@ -298,43 +294,49 @@ Condition: ${appointmentData.condition}`
               <div className="w-12 h-12 md:w-14 md:h-14 lg:w-16 lg:h-16 bg-gradient-to-br from-spine-teal to-spine-teal-dark rounded-2xl flex items-center justify-center mb-3 md:mb-4 lg:mb-6 group-hover:scale-110 transition-transform duration-300">
                 <Activity size={28} className="text-white" />
               </div>
-              <h3 className="text-lg md:text-xl lg:text-2xl font-bold text-spine-teal mb-2 md:mb-3">Spinal Rehabilitation</h3>
-              <p className="text-gray-600 text-xs md:text-sm lg:text-base">Comprehensive rehabilitation programs to restore mobility and strength.</p>
+              <h3 className="text-lg md:text-xl lg:text-2xl font-bold text-spine-teal mb-1 md:mb-2">Spinal Rehabilitation</h3>
+              <p className="text-gray-600 text-xs md:text-sm lg:text-base mb-1">Comprehensive rehabilitation programs to restore mobility and strength.</p>
+              <p className="text-gray-500 text-xs md:text-sm italic">स्पाइनल पुनर्वास - गतिशीलता और शक्ति बहाल करने के लिए व्यापक पुनर्वास कार्यक्रम</p>
             </div>
             <div className="bg-white p-4 md:p-6 lg:p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 border border-gray-100 group">
               <div className="w-12 h-12 md:w-14 md:h-14 lg:w-16 lg:h-16 bg-gradient-to-br from-spine-teal to-spine-teal-dark rounded-2xl flex items-center justify-center mb-3 md:mb-4 lg:mb-6 group-hover:scale-110 transition-transform duration-300">
                 <Heart size={28} className="text-white" />
               </div>
-              <h3 className="text-lg md:text-xl lg:text-2xl font-bold text-spine-teal mb-2 md:mb-3">Pain Management</h3>
-              <p className="text-gray-600 text-xs md:text-sm lg:text-base">Advanced pain management techniques for lasting relief.</p>
+              <h3 className="text-lg md:text-xl lg:text-2xl font-bold text-spine-teal mb-1 md:mb-2">Pain Management</h3>
+              <p className="text-gray-600 text-xs md:text-sm lg:text-base mb-1">Advanced pain management techniques for lasting relief.</p>
+              <p className="text-gray-500 text-xs md:text-sm italic">दर्द प्रबंधन - स्थायी राहत के लिए उन्नत दर्द प्रबंधन तकनीक</p>
             </div>
             <div className="bg-white p-4 md:p-6 lg:p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 border border-gray-100 group">
               <div className="w-12 h-12 md:w-14 md:h-14 lg:w-16 lg:h-16 bg-gradient-to-br from-spine-teal to-spine-teal-dark rounded-2xl flex items-center justify-center mb-3 md:mb-4 lg:mb-6 group-hover:scale-110 transition-transform duration-300">
                 <Stethoscope size={28} className="text-white" />
               </div>
-              <h3 className="text-lg md:text-xl lg:text-2xl font-bold text-spine-teal mb-2 md:mb-3">Chiropractic Care</h3>
-              <p className="text-gray-600 text-xs md:text-sm lg:text-base">Professional chiropractic adjustments and spinal alignment.</p>
+              <h3 className="text-lg md:text-xl lg:text-2xl font-bold text-spine-teal mb-1 md:mb-2">Chiropractic Care</h3>
+              <p className="text-gray-600 text-xs md:text-sm lg:text-base mb-1">Professional chiropractic adjustments and spinal alignment.</p>
+              <p className="text-gray-500 text-xs md:text-sm italic">काइरोप्रैक्टिक देखभाल - पेशेवर काइरोप्रैक्टिक समायोजन और स्पाइनल संरेखण</p>
             </div>
             <div className="bg-white p-4 md:p-6 lg:p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 border border-gray-100 group">
               <div className="w-12 h-12 md:w-14 md:h-14 lg:w-16 lg:h-16 bg-gradient-to-br from-spine-teal to-spine-teal-dark rounded-2xl flex items-center justify-center mb-3 md:mb-4 lg:mb-6 group-hover:scale-110 transition-transform duration-300">
                 <Users size={28} className="text-white" />
               </div>
-              <h3 className="text-lg md:text-xl lg:text-2xl font-bold text-spine-teal mb-2 md:mb-3">Physical Therapy</h3>
-              <p className="text-gray-600 text-xs md:text-sm lg:text-base">Customized physical therapy programs for recovery.</p>
+              <h3 className="text-lg md:text-xl lg:text-2xl font-bold text-spine-teal mb-1 md:mb-2">Physical Therapy</h3>
+              <p className="text-gray-600 text-xs md:text-sm lg:text-base mb-1">Customized physical therapy programs for recovery.</p>
+              <p className="text-gray-500 text-xs md:text-sm italic">फिजियोथेरेपी - रिकवरी के लिए अनुकूलित फिजियोथेरेपी कार्यक्रम</p>
             </div>
             <div className="bg-white p-4 md:p-6 lg:p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 border border-gray-100 group">
               <div className="w-12 h-12 md:w-14 md:h-14 lg:w-16 lg:h-16 bg-gradient-to-br from-spine-teal to-spine-teal-dark rounded-2xl flex items-center justify-center mb-3 md:mb-4 lg:mb-6 group-hover:scale-110 transition-transform duration-300">
                 <Activity size={28} className="text-white" />
               </div>
-              <h3 className="text-lg md:text-xl lg:text-2xl font-bold text-spine-teal mb-2 md:mb-3">Post-Surgical Care</h3>
-              <p className="text-gray-600 text-xs md:text-sm lg:text-base">Specialized care for patients recovering from spine surgery.</p>
+              <h3 className="text-lg md:text-xl lg:text-2xl font-bold text-spine-teal mb-1 md:mb-2">Post-Surgical Care</h3>
+              <p className="text-gray-600 text-xs md:text-sm lg:text-base mb-1">Specialized care for patients recovering from spine surgery.</p>
+              <p className="text-gray-500 text-xs md:text-sm italic">ऑपरेशन के बाद की देखभाल - स्पाइन सर्जरी से रिकवर करने वाले मरीजों के लिए विशेष देखभाल</p>
             </div>
             <div className="bg-white p-4 md:p-6 lg:p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 border border-gray-100 group">
               <div className="w-12 h-12 md:w-14 md:h-14 lg:w-16 lg:h-16 bg-gradient-to-br from-spine-teal to-spine-teal-dark rounded-2xl flex items-center justify-center mb-3 md:mb-4 lg:mb-6 group-hover:scale-110 transition-transform duration-300">
                 <Heart size={28} className="text-white" />
               </div>
-              <h3 className="text-lg md:text-xl lg:text-2xl font-bold text-spine-teal mb-2 md:mb-3">Wellness Programs</h3>
-              <p className="text-gray-600 text-xs md:text-sm lg:text-base">Preventive care and wellness programs for spinal health.</p>
+              <h3 className="text-lg md:text-xl lg:text-2xl font-bold text-spine-teal mb-1 md:mb-2">Wellness Programs</h3>
+              <p className="text-gray-600 text-xs md:text-sm lg:text-base mb-1">Preventive care and wellness programs for spinal health.</p>
+              <p className="text-gray-500 text-xs md:text-sm italic">वेलनेस कार्यक्रम - स्पाइनल स्वास्थ्य के लिए निवारक देखभाल और वेलनेस कार्यक्रम</p>
             </div>
           </div>
         </div>
@@ -493,7 +495,7 @@ Condition: ${appointmentData.condition}`
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-6 md:mb-8 lg:mb-12">
             <h2 className="text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold text-spine-teal mb-3 md:mb-4">Find Us</h2>
-            <p className="text-base md:text-lg lg:text-xl text-gray-600">Visit The Spine Lounge</p>
+            <p className="text-base md:text-lg lg:text-xl text-gray-600">Visit Jindal Spine Clinic</p>
             <div className="w-16 md:w-24 h-1 bg-spine-teal mx-auto mt-3 md:mt-4 rounded-full"></div>
           </div>
           <div className="grid md:grid-cols-2 gap-4 md:gap-6 lg:gap-8">
@@ -506,7 +508,8 @@ Condition: ${appointmentData.condition}`
                 <div className="flex items-start space-x-2 md:space-x-3 lg:space-x-4 p-3 md:p-4 bg-spine-tan-light rounded-xl">
                   <MapPin size={20} className="text-spine-teal mt-1 flex-shrink-0" />
                   <div>
-                    <p className="font-bold text-gray-800 text-sm md:text-base lg:text-lg">The Spine Lounge</p>
+                    <p className="font-bold text-gray-800 text-sm md:text-base lg:text-lg">Jindal Spine Clinic</p>
+                    <p className="text-gray-600 text-xs md:text-sm lg:text-base">36-A Mahavir Chowk, Old Vardhman Street</p>
                     <p className="text-gray-600 text-xs md:text-sm lg:text-base">Muzaffarnagar, Uttar Pradesh, India</p>
                   </div>
                 </div>
@@ -514,22 +517,17 @@ Condition: ${appointmentData.condition}`
                   <Phone size={20} className="text-spine-teal flex-shrink-0" />
                   <span className="text-gray-800 font-medium text-xs md:text-sm lg:text-base">+91 91677 61851</span>
                 </div>
-                <div className="flex items-center space-x-2 md:space-x-3 lg:space-x-4 p-3 md:p-4 bg-spine-tan-light rounded-xl">
-                  <Mail size={20} className="text-spine-teal flex-shrink-0" />
-                  <span className="text-gray-800 font-medium text-xs md:text-sm lg:text-base">info@thespinelounge.com</span>
-                </div>
                 <div className="flex items-start space-x-2 md:space-x-3 lg:space-x-4 p-3 md:p-4 bg-spine-tan-light rounded-xl">
                   <Clock size={20} className="text-spine-teal mt-1 flex-shrink-0" />
                   <div>
-                    <p className="text-gray-800 font-medium text-xs md:text-sm lg:text-base">Mon - Fri: 9:00 AM - 6:00 PM</p>
-                    <p className="text-gray-800 font-medium text-xs md:text-sm lg:text-base">Saturday: 10:00 AM - 2:00 PM</p>
-                    <p className="text-gray-800 font-medium text-xs md:text-sm lg:text-base">Sunday: Closed</p>
+                    <p className="text-gray-800 font-medium text-xs md:text-sm lg:text-base">Morning: 10:00 AM - 2:00 PM</p>
+                    <p className="text-gray-800 font-medium text-xs md:text-sm lg:text-base">Evening: 4:00 PM - 6:00 PM</p>
                   </div>
                 </div>
               </div>
               <div className="mt-4 md:mt-6 lg:mt-8">
                 <a
-                  href="https://maps.google.com/?q=Muzaffarnagar+Uttar+Pradesh+India"
+                  href="https://maps.google.com/?q=36-A+Mahavir+Chowk+Old+Vardhman+Street+Muzaffarnagar+Uttar+Pradesh+India"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center space-x-2 bg-gradient-to-r from-spine-teal to-spine-teal-dark text-white px-5 py-3 md:px-6 md:py-3 lg:px-8 lg:py-4 rounded-xl font-bold text-sm md:text-base lg:text-lg hover:shadow-2xl hover:scale-105 transition-all duration-300 w-full justify-center min-h-[48px]"
@@ -549,7 +547,7 @@ Condition: ${appointmentData.condition}`
                 <p className="text-spine-tan-light text-center mb-3 md:mb-4 lg:mb-6 text-xs md:text-sm lg:text-base">Click "Get Directions" to navigate to our clinic</p>
                 <div className="flex items-center space-x-2 bg-white/10 px-3 py-2 md:px-4 md:py-2 rounded-full backdrop-blur-sm">
                   <span className="text-lg md:text-xl lg:text-2xl">📍</span>
-                  <span className="font-medium text-xs md:text-sm lg:text-base">Muzaffarnagar, Uttar Pradesh</span>
+                  <span className="font-medium text-xs md:text-sm lg:text-base">36-A Mahavir Chowk, Muzaffarnagar</span>
                 </div>
               </div>
             </div>
@@ -570,16 +568,13 @@ Condition: ${appointmentData.condition}`
                   <span className="text-xs md:text-sm lg:text-base">+91 91677 61851</span>
                 </div>
                 <div className="flex items-center space-x-2 md:space-x-3 lg:space-x-4">
-                  <Mail size={20} className="text-spine-tan flex-shrink-0" />
-                  <span className="text-xs md:text-sm lg:text-base">info@thespinelounge.com</span>
-                </div>
-                <div className="flex items-center space-x-2 md:space-x-3 lg:space-x-4">
                   <MapPin size={20} className="text-spine-tan flex-shrink-0" />
-                  <span className="text-xs md:text-sm lg:text-base">Muzaffarnagar, Uttar Pradesh</span>
+                  <span className="text-xs md:text-sm lg:text-base">36-A Mahavir Chowk, Old Vardhman Street, Muzaffarnagar</span>
                 </div>
                 <div className="flex items-center space-x-2 md:space-x-3 lg:space-x-4">
                   <Clock size={20} className="text-spine-tan flex-shrink-0" />
-                  <span className="text-xs md:text-sm lg:text-base">Mon - Fri: 9:00 AM - 6:00 PM</span>
+                  <span className="text-xs md:text-sm lg:text-base">Morning: 10:00 AM - 2:00 PM</span>
+                  <span className="text-xs md:text-sm lg:text-base">Evening: 4:00 PM - 6:00 PM</span>
                 </div>
               </div>
             </div>
@@ -620,7 +615,7 @@ Condition: ${appointmentData.condition}`
       {/* Footer */}
       <footer className="bg-spine-teal-dark text-white py-4 md:py-6 lg:py-8 px-4 md:px-6">
         <div className="max-w-6xl mx-auto text-center">
-          <h3 className="text-base md:text-lg lg:text-xl font-bold mb-2">THE SPINE LOUNGE</h3>
+          <h3 className="text-base md:text-lg lg:text-xl font-bold mb-2">JINDAL SPINE CLINIC</h3>
           <p className="text-spine-tan-light mb-3 md:mb-4 text-xs md:text-sm lg:text-base">Expert Spine Care for a Better Life</p>
           <div className="flex justify-center space-x-2 md:space-x-3 lg:space-x-4 mb-3 md:mb-4">
             <a
@@ -656,7 +651,7 @@ Condition: ${appointmentData.condition}`
               <MessageCircle size={20} />
             </a>
           </div>
-          <p className="text-xs md:text-sm text-gray-400">&copy; 2026 The Spine Lounge. All rights reserved.</p>
+          <p className="text-xs md:text-sm text-gray-400">&copy; 2026 Jindal Spine Clinic. All rights reserved.</p>
         </div>
       </footer>
 
