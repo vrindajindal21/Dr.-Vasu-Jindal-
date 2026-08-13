@@ -222,7 +222,7 @@ Condition: ${appointmentData.condition}`
                 <h4 className="text-base md:text-lg font-semibold text-spine-teal mb-3 md:mb-4">Connect with Dr. Jindal</h4>
                 <div className="flex flex-wrap gap-2 md:gap-3">
                   <a
-                    href=""
+                    href="https://instagram.com/drvasujindal"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center space-x-2 bg-gradient-to-br from-purple-500 to-pink-500 text-white px-3 py-2 md:px-4 md:py-2 rounded-lg hover:opacity-90 transition text-xs md:text-sm"
@@ -231,7 +231,7 @@ Condition: ${appointmentData.condition}`
                     <span className="font-medium">Instagram</span>
                   </a>
                   <a
-                    href=""
+                    href="https://facebook.com/drvasujindal"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center space-x-2 bg-blue-600 text-white px-3 py-2 md:px-4 md:py-2 rounded-lg hover:opacity-90 transition text-xs md:text-sm"
@@ -240,7 +240,7 @@ Condition: ${appointmentData.condition}`
                     <span className="font-medium">Facebook</span>
                   </a>
                   <a
-                    href=""
+                    href="https://linkedin.com/in/drvasujindal"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center space-x-2 bg-blue-700 text-white px-3 py-2 md:px-4 md:py-2 rounded-lg hover:opacity-90 transition text-xs md:text-sm"
